@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+.ShoppingTrolleyheader{
+	width:100%;
+	height:221px;
+}
+.ShoppingTrolleyUpAndDown{
+	padding-top:107px;
+	margin-left:517px;
+	width:300px;
+	height:50px;
+}
+.ShopingTrolleyMyCart{
+	float: left;
+	margin-left:517px;
+	height:50px;
+}
+.ShopingTrolleyPrice{
+	height:50px;
+	float: right;
+	margin-right:547px;
+}
+.ShopingTrolleyQty{
+	height:50px;
+	float: right;
+	margin-right:117px;
+
+}
+.ShopingTrolleyTotal{
+	height:50px;
+	float: right;
+	margin-right:117px;
+	
+}
+.ShoppingTrolleyitem{
+	padding-top:50px;
+	height: 50px; 
+}
+.ShoppingTrolleyline{
+	margin-left:509px;
+	width:859px;
+	margin-top:61px;
+	border-bottom: 2px solid #9C9696;
+}
+.ShoppingTrolleyitem p{
+	display:inline-block;
+	font-family: actor;
+	font-size: 17px;
+	font-weight: 500;
+	padding-top: 28px;
+}
+.ShoppingTrolleyUpAndDown>a{
+	cursor: pointer;
+	color:#262222;
+	text-decoration: none;
+}
+.ShoppingTrolleyUpAndDown>a:active{
+	text-decoration: none;
+}
+.ShoppingTrolleyUpAndDown>a:hover{
+	text-decoration: none;
+}
+.ShoppingTrolleyUpAndDown>a:visited{
+	text-decoration: none;
+}
+.Foot{
+	padding-top: 100px;
+	clear: both;
+}
+.ShoppingTrolleymessage{
+	height:279px;
+	width:100%;
+	margin-bottom:10px;
+}
+.STimage{
+	margin-top:36px;
+	width: 310px;
+	height:250px;
+	margin-left: 517px;
+	float: left;
+}
+.STprice{
+	margin-top:36px;
+	height:50px;
+	width:50px;
+	float:right;
+	margin-right:79px;
+}
+.STqty{
+	margin-top:27px;
+	width:50px;
+	height:50px;
+	float: right;
+	margin-right:123px; 
+}
+.STtotal{
+	margin-top: 36px;
+	width:50px;
+	height:50px;
+	float: right;
+	margin-right:537px; 
+}
+.STimageitem{
+	float:left;
+	width: 150px;
+	height: 200px;
+}
+.STimagemessage{
+	width:150px;
+	float:right;
+	height:200px;
+}
+.STimagemessage>h2{
+	display: block;
+	margin-top:5px;
+	font-family: actor;
+	font-size:20px;
+	font-weight: 500;
+	margin-bottom:29px;
+}
+.STimagemessage>p{
+	font-size:17px;
+	font-family: actor;
+	font-weight: 300;
+}
+.STimagemessage>a{
+	display: block;
+	margin-top: 20px;
+	cursor: pointer;
+	font-size:17px;
+	font-family: actor;
+	font-weight: 300;
+}
+.STitemmessage{
+}
+.STitemmessage p{	
+	font-family: actor;
+	font-size:17px;
+	font-weight: 400;
+}
+.STline{
+	position: absolute;
+	margin-top:279px;
+	margin-left:509px;
+	width:859px;
+	border-bottom: 2px solid #9C9696;
+}
+.STpurchaseitem{
+	margin-top:1.5%;
+	height:250px;
+	width:351px;
+	margin-left:53.2%;
+}
+.STpurchasemessage{
+	height:120px;
+	width:100%;
+	border-bottom:2px solid #BFB6B6;
+}
+.STpurchasemessage p{
+	float:left;
+	font-family: actor;
+	font-size:16px;
+	font-weight:400;
+}
+.STpurchaseitemadress{
+	margin-top:10px;
+}
+.STpurchase{
+	margin-top:10px;
+}
+.STpurchase p{
+	float:left;
+	font-family: actor;
+	font-size:20px;
+	font-weight:400;
+}
+.STpurchase>button{
+	height:50px;
+	width:100%;
+	background-color: #EF830B;
+	color:black;
+	font-size:27px;
+	font-family: actor;
+	font-weight: 400;
+}

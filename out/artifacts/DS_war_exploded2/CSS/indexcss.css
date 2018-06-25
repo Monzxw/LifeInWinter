@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:100%;
+    font:inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.header{
+    position:fixed;
+    width:100%;
+    min-width:980px;
+    height:64px;
+    z-index:9999;
+    left: auto;
+	clear: both;
+	background-color:#292421;/*#E6162D(透明)*/
+}
+.headline{
+   position: absolute;
+   top:24%;
+   left:41%;
+}
+.headerul{
+    height:25px;
+    text-align:center;
+    white-space: nowrap;
+    display:inline-block;
+    overflow:visible;
+    position: relative;
+	margin: 0;
+}
+.headerli{
+    height:25px;
+    position: relative;
+    box-sizing: border-box;
+    overflow:visible;
+    display:inline-block;
+    cursor: pointer;
+    white-space: nowrap;
+	margin-top: 0;
+	margin-bottom: 0px;
+	margin-right:55px;
+}
+.headerli>a{
+    text-decoration:none;
+}
+.headerli>a:hover{
+	text-decoration: none;
+}
+.headerp{
+	height: 25px;
+    font-size:25px;
+    color: #FFFFFF;
+    font-style: normal;
+	margin: 0;
+}
+.headerLoginAndRegistration p{
+	margin-top:10px;
+	font-size:20px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+.headerLoginAndRegistration{
+    position:absolute;
+	margin-left:80%;
+    top:20px;
+    height:24px;
+}
+.backgroundKuang{
+	position:fixed;
+	z-index:0;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+
+.backgroundimg{
+	overflow: hidden;
+	width:100%;
+	height: 100%;
+}
+.bigHeading{
+	margin-top:350px;
+	position: absolute;
+	width:100%;
+	height:138px;
+}
+.bigHeadingWord{
+	height:100%;
+	display: inline-block;
+}
+.bigHeadingWord>p{
+font-size:120px;
+color:azure;
+font-family:"f2u scratch";
+}
+.bigHeadingul{
+	width:100%;
+    height:100%;
+	padding-left:calc((100% - 710px)/2);
+    white-space: nowrap;
+    display:inline-block;
+    overflow: visible;
+    position:absolute;
+}
+.Categoryofgoods{
+	margin-top:1050px;
+	height: 580px;
+	left:0px;
+	position:absolute;
+	width:100%;
+}
+.Categoryofgoodsdiv{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	/*clip:rect(0px.980px,580px,0px);*/
+}
+.Categoryofgoodsimage{
+	object-fit: cover;
+	top:0;
+	left:0;
+	width:100%;
+	height:580px;
+}
+.ProductofType{
+	top:100px;
+	width:100%;
+	height:80px;
+	left:0;
+	position: absolute;
+	text-align: center;
+}
+.ProductofTypeh1{
+	font-size: 58px;
+	font-family: "f2u scratch";
+	color:azure;
+}
+.ProductofTypeKuang{
+	top: 187px;
+	width: 1000px;
+	height: 393px;
+	position: absolute;
+	left:0px;
+	margin-left:calc((100% - 875px)*0.5);
+}
+.ProductofTypesmallKuang{
+	width:300px;
+	height:100%;
+	position: relative;
+	text-align:center;
+    white-space: nowrap;
+    display:inline-block;
+    overflow: visible;
+}
+.ProductofTypeico{
+	top:10px;
+	width:100%;
+	height:138px;
+	position: relative;
+}
+.ProductofTypeHeading{
+	width:100%;
+	position: relative;
+	top:35px;
+	text-align: center;
+	height:40px;
+}
+.ProductofTypeHeadingFont{
+	width:100%;
+	height:30px;
+	font-size:30px;
+	color: aliceblue;
+}
+.ProductofTypeintroduction{
+	top: 40px;
+	height:140px;
+	width:100%;
+	word-break:normal;  
+	position: relative;
+	text-align: center;
+}
+.ProductofTypeintroductionfont{
+	fontsize:15px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	line-height: 30px;
+	color:aliceblue;
+	width:100%;
+	word-break:normal;  
+}
+a.ProductofTypea{
+	text-decoration:none;
+	border-bottom: 2px solid #fff;
+	padding-top:10px;
+}
+a.ProductofTypea>h2{
+	text-decoration: underline;
+}
+.allProduct{
+	min-height: 122%;
+	top:1630px;
+	background-color: #FFF;
+	position: absolute;
+	width:100%;
+	clear:both;
+}
+.allProductHeading{
+	top:107px;
+	width:100%;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	height: 100px;
+	clear: both;
+	/*200px*/
+}
+.allProductHeading>p{
+	clear: both;
+	font-size: 32px;
+	color:#000000;
+	width:100%;
+	heigth:120px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+.allProductHeadingHeng{
+	clear: both;
+	top:52px;
+	color:black;
+	border-bottom: 3px solid rgb(47,46,46,1);
+	width: 141px;
+	position: absolute;
+	margin-left: calc((100% - 141px)/2);
+}
+.allProductHeadingJie{
+	position:relative;
+	top:15px;
+	height:20px;
+	clear: both;
+}
+.allProductHeadingJie>p{
+	font-family:"anonymous-pro";
+	font-szie:20px;
+	height:20px;
+	clear: both;
+}
+.Product{
+	top:269px;
+	clear: both;
+	position:absolute;
+	width:100%;
+	height: auto;
+	/*margin-left: calc((100% - 1414px)/2);*/
+}
+.Aboutus{
+	position:absolute;
+	margin-top:2867px;
+	height:998px;
+	width:100%;
+	background-color:white;
+}
+.AboutusBackgroundimg{
+	top:20px;
+	margin-top:50px;
+	height:271px;
+	background-image:url(../picture/好看的图片备选/6.jpg);
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	overflow: hidden;
+}
+.AboutusBackgroundimg1{
+	top:20px;
+	margin-top:50px;
+	height:271px;
+	background-image:url(../picture/好看的图片备选/6.jpg);
+	background-position: center center;
+	background-repeat:no-repeat;
+	/*background-attachment: fixed;*/
+	background-size:cover;
+	overflow: hidden;
+}
+.AboutusBackground{
+	position: relative;
+	top:151px;
+	background-image: url(../picture/bottom.jpg);
+	width: 100%;
+	height:441px;
+}
+.AboutusBottom{
+	position: relative;
+	top:151px;
+	background-image: url(../picture/background/Categoryofgoods.jpg);
+	width:100%;
+	height:142px;
+}
+.BottomicoKuang{
+	position:absolute;
+	top: 31px;
+	width:500px;
+	height:40px;
+	margin-left: calc((100% - 205px)/2);
+}
+.Bottomico{
+	box-sizing: border-box;
+    overflow:visible;
+    display:inline-block;
+	position: relative;
+	width: 31px;
+	height: 34px;
+	margin-left: 20px;
+}
+.BottomicoKuang>ul{
+	text-align:center;
+    white-space: nowrap;
+    display:inline-block;
+    overflow:visible;
+    position: relative;
+}
+.Bottomico>a{
+	cursor: pointer;
+}
+.BottomCreator{
+	position: absolute;
+	margin-left: calc((100% - 205px)/2);
+	height:50px;
+	width:500px;
+	top:91px;
+}
+.BottomCreator>p{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	fonr-size:49px;
+	color:aliceblue;
+}
+.Aboutuscenter{
+	position: absolute;
+	top:73px;
+	height:297px;
+	width:700px;
+	background-color:#EFDFDF;
+	margin-left: calc((100% - 710px)/2);
+}
+.Aboutuscenter>h2{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 25px;
+	color:black;
+	text-align: center;
+}
+.Aboutuscenter>p{
+	display: inline-block;
+	position: relative;
+	top:24px;
+	height:221px;
+	width:550px;
+	margin-left: 74px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 16px;
+}
+
+/*重写Bootstrap中的类*/
+.hotproduct{
+	padding-left:100px;
+    width: 18%;
+	height:35%;
+	margin-bottom: 30px;
+  }

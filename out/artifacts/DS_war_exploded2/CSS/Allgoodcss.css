@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.AllGoodsitemfont{
+	display: block;
+	padding-top:37px;
+	font-family:"f2u scratch";
+	font-size: 50px;
+	text-align: center;
+ }
+.Foot{
+	padding-top: 100px;
+	clear: both;
+}
+.AllGoodsitemKuang{
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	width:99%;
+	margin-top:70px;
+}

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DS:war exploded">
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DS" />
+          <element id="dir-copy" path="$PROJECT_DIR$/../DBhelper/src" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/编程学习/mysql-connector-java-5.1.39-bin.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="DS/web/Web" />
+    </root>
+  </artifact>
+</component>
